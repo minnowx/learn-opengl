@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\pch.h">
+    <ClInclude Include="include\PCH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -23,8 +26,21 @@
     <ClCompile Include="src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="thirdparty\glad\glad.c">
+    <ClCompile Include="src\thirdparty\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\HelloWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HelloTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include=".gitignore" />
   </ItemGroup>
 </Project>

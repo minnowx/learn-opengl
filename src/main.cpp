@@ -1,6 +1,8 @@
-#include "pch.h"
+//int HelloWindow();
+int HelloTriangle();
 
-int main(int args, char* argv[])
-{
-
+int main() {
+	//HelloWindow();
+	HelloTriangle();
+	return 0;
 }
