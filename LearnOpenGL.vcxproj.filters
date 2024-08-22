@@ -38,6 +38,15 @@
     <ClCompile Include="src\Common.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\HelloTriangle2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HelloTriangleHomework.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shaders.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
