@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="include\Common.h" />
     <ClInclude Include="include\PCH.h" />
+    <ClInclude Include="include\Shader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Common.cpp" />
@@ -142,12 +143,16 @@
     <ClCompile Include="src\HelloTriangleHomework.cpp" />
     <ClCompile Include="src\HelloWindow.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
     <ClCompile Include="src\Shaders.cpp" />
+    <ClCompile Include="src\Shaders2.cpp" />
     <ClCompile Include="src\thirdparty\glad.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="README.md" />
+    <None Include="shader\shader.fs" />
+    <None Include="shader\shader.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

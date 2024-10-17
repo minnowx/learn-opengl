@@ -1,16 +1,22 @@
-#include "PCH.h"
 #include "Common.h"
 
 
 const char* vertexShaderSource2 = "#version 330 core\n"
 "layout (location = 0) in vec3 aPos;\n"
+"\n"
+"out vec4 vertexColor;\n"
+"\n"
 "void main() {\n"
 "    gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0f);\n"
+"    vertexColor = vec4(0.5, 0.0, 0.0, 1.0);\n"
 "}";
 const char* fragmentShaderSource2 = "#version 330 core\n"
 "out vec4 FragColor;\n"
+"\n"
+"in vec4 vertexColor;\n"
+"\n"
 "void main() {\n"
-"    FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+"    FragColor = vertexColor;\n"
 "}";
 
 
@@ -104,7 +110,7 @@ int HelloTriangle2()
 	glGenBuffers(1, &EBO);
 	glGenVertexArrays(1, &VAO);
 
-	// ºóĞøÕë¶Ô VBO µÄ²Ù×÷¶¼½«°ó¶¨µ½¸Ã VAO ÉÏ
+	// åç»­é’ˆå¯¹ VBO çš„æ“ä½œéƒ½å°†ç»‘å®šåˆ°è¯¥ VAO ä¸Š
 	glBindVertexArray(VAO);
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);

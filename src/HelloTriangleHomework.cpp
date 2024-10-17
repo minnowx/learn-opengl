@@ -1,4 +1,3 @@
-#include "PCH.h"
 #include "Common.h"
 
 
@@ -120,7 +119,7 @@ int HelloTriangleHomework()
 
 	// Vertex Buffer Object
 	unsigned int VBO1, VAO1, VBO2, VAO2;
-	// Ç°ÃæµÄÊı×Ö²»ÊÇ ID, ¶øÊÇĞèÒª³õÊ¼»¯µÄÊıÁ¿
+	// å‰é¢çš„æ•°å­—ä¸æ˜¯ ID, è€Œæ˜¯éœ€è¦åˆå§‹åŒ–çš„æ•°é‡
 	glGenBuffers(1, &VBO1);
 	glGenVertexArrays(1, &VAO1);
 
@@ -161,7 +160,7 @@ int HelloTriangleHomework()
 	}
 
 	//Destory
-	// Ç°ÃæµÄÊı×ÖÊÇĞèÒªÏú»ÙµÄÊıÁ¿£¬¶ø²»ÊÇID
+	// å‰é¢çš„æ•°å­—æ˜¯éœ€è¦é”€æ¯çš„æ•°é‡ï¼Œè€Œä¸æ˜¯ID
 	glDeleteVertexArrays(1, &VAO1);
 	glDeleteVertexArrays(1, &VAO2);
 	glDeleteBuffers(1, &VBO1);

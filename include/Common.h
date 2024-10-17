@@ -1,5 +1,5 @@
 #pragma once
-#include <pch.h>
+#include <PCH.h>
 
 const int WIDTH = 800;
 const int HEIGHT = 600;

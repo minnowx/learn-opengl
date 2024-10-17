@@ -21,6 +21,9 @@
     <ClInclude Include="include\Common.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -47,9 +50,17 @@
     <ClCompile Include="src\Shaders.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shaders2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
     <None Include=".gitignore" />
+    <None Include="shader\shader.vs" />
+    <None Include="shader\shader.fs" />
   </ItemGroup>
 </Project>
