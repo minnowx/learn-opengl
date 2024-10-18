@@ -31,7 +31,7 @@ int Shaders2()
 
 	glViewport(0, 0, WIDTH, HEIGHT);
 
-	Shader shader{"./shader/shader.vs", "./shader/shader.fs"};
+	Shader shader{"./resources/shader/1.5.shader.vs", "./resources/shader/1.5.shader.fs"};
 
 	float vertices[] = {
 		 0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,

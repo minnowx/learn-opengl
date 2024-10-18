@@ -135,6 +135,7 @@
     <ClInclude Include="include\Common.h" />
     <ClInclude Include="include\PCH.h" />
     <ClInclude Include="include\Shader.h" />
+    <ClInclude Include="include\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Common.cpp" />
@@ -146,13 +147,22 @@
     <ClCompile Include="src\Shader.cpp" />
     <ClCompile Include="src\Shaders.cpp" />
     <ClCompile Include="src\Shaders2.cpp" />
+    <ClCompile Include="src\stb_image.cpp" />
+    <ClCompile Include="src\Textures.cpp" />
     <ClCompile Include="src\thirdparty\glad.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="README.md" />
-    <None Include="shader\shader.fs" />
-    <None Include="shader\shader.vs" />
+    <None Include="resources\shader\1.5.shader.fs" />
+    <None Include="resources\shader\1.5.shader.vs" />
+    <None Include="resources\shader\1.6.shader.fs" />
+    <None Include="resources\shader\1.6.shader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\awesomeface.png" />
+    <Image Include="resources\textures\container.jpg" />
+    <Image Include="resources\textures\wall.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,7 +3,8 @@
 //int HelloTriangle2();
 //int HelloTriangleHomework();
 //int Shaders();
-int Shaders2();
+//int Shaders2();
+int Textures();
 
 int main() {
 	//HelloWindow();
@@ -11,6 +12,7 @@ int main() {
 	//HelloTriangle2();
 	//HelloTriangleHomework();
 	//Shaders();
-	Shaders2();
+	//Shaders2();
+	Textures();
 	return 0;
 }
