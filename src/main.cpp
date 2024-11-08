@@ -4,7 +4,13 @@
 //int HelloTriangleHomework();
 //int Shaders();
 //int Shaders2();
-int Textures();
+//int Textures();
+//int Transformations();
+//int CoordinateSystem();
+//int CameraMove();
+//int Colors();
+//int Materials();
+int LightingMaps();
 
 int main() {
 	//HelloWindow();
@@ -13,6 +19,12 @@ int main() {
 	//HelloTriangleHomework();
 	//Shaders();
 	//Shaders2();
-	Textures();
+	//Textures();
+	//Transformations();
+	//CoordinateSystem();
+	//CameraMove();
+	//Colors();
+	//Materials();
+	LightingMaps();
 	return 0;
 }

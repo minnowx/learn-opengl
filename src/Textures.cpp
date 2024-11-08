@@ -1,6 +1,5 @@
 #include "Common.h"
 #include "Shader.h"
-#include "stb_image.h"
 
 int Textures()
 {
